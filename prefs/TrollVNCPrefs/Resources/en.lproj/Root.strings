@@ -32,7 +32,6 @@
 
 "Assistive Touch Auto-Activation" = "Assistive Touch Auto-Activation";
 
-"Attempts to avoid blocking when swapping buffers; may cause tearing. Can reduce stalls when encoders are slow." = "Attempts to avoid blocking when swapping buffers; may cause tearing. Can reduce stalls when encoders are slow.";
 
 "Authentication" = "Authentication";
 
@@ -50,7 +49,6 @@
 
 "Clipboard Sync" = "Clipboard Sync";
 
-"Coalesces updates to reduce overhead. Higher values add latency; typical range 0.005–0.030." = "Coalesces updates to reduce overhead. Higher values add latency; typical range 0.005–0.030.";
 
 "Configure basic server options." = "Configure basic server options.";
 
@@ -60,13 +58,11 @@
 
 "Cursor & Orientation" = "Cursor & Orientation";
 
-"Defer Window (sec)" = "Defer Window (sec)";
 
 "Desktop Name" = "Desktop Name";
 
 "Dirty Detection" = "Dirty Detection";
 
-"Dirty-detection tile size in pixels. Smaller captures finer changes but increases CPU cost." = "Dirty-detection tile size in pixels. Smaller captures finer changes but increases CPU cost.";
 
 "Disabled" = "Disabled";
 
@@ -86,7 +82,6 @@
 
 "Full-access Password" = "Full-access Password";
 
-"Fullscreen Threshold (%)" = "Fullscreen Threshold (%)";
 
 "General" = "General";
 
@@ -98,7 +93,6 @@
 
 "HTTP Port" = "HTTP Port";
 
-"If changed tiles exceed this percent, send a full-screen update. 0 disables dirty detection (always fullscreen)." = "If changed tiles exceed this percent, send a full-screen update. 0 disables dirty detection (always fullscreen).";
 
 "Ignore all input from clients. Overrides per-client view-only password if set." = "Ignore all input from clients. Overrides per-client view-only password if set.";
 
@@ -116,11 +110,8 @@
 
 "Match iOS natural scroll direction for mouse wheel/trackpad; disable for traditional desktop direction." = "Match iOS natural scroll direction for mouse wheel/trackpad; disable for traditional desktop direction.";
 
-"Max concurrent client encodes before dropping new frames. 0 = never drop (may increase latency under load)." = "Max concurrent client encodes before dropping new frames. 0 = never drop (may increase latency under load).";
 
-"Max In-flight" = "Max In-flight";
 
-"Max Rects" = "Max Rects";
 
 "Mode" = "Mode";
 
@@ -130,7 +121,6 @@
 
 "Natural Scroll Direction" = "Natural Scroll Direction";
 
-"Non-blocking Swap" = "Non-blocking Swap";
 
 "None" = "None";
 
@@ -210,7 +200,6 @@
 
 "This project is licensed under GPLv2. Author: Lessica." = "This project is licensed under GPLv2. Author: Lessica.";
 
-"Tile Size (px)" = "Tile Size (px)";
 
 "TrollVNC" = "TrollVNC";
 
@@ -232,6 +221,5 @@
 
 "Wheel Tuning" = "Wheel Tuning";
 
-"When dirty rectangles exceed this count, collapse to a bounding box. Too high increases protocol overhead." = "When dirty rectangles exceed this count, collapse to a bounding box. Too high increases protocol overhead.";
 
 "To unblock previously blocked clients, restart the VNC service. The temporary block list is cleared on service restart." = "";

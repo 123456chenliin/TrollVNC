@@ -32,7 +32,6 @@
 
 "Assistive Touch Auto-Activation" = "Assistive Touch 自动激活";
 
-"Attempts to avoid blocking when swapping buffers; may cause tearing. Can reduce stalls when encoders are slow." = "尝试在交换缓冲时避免阻塞；可能导致撕裂。在编码器较慢时可减少停顿。";
 
 "Authentication" = "认证";
 
@@ -50,7 +49,6 @@
 
 "Clipboard Sync" = "剪贴板同步";
 
-"Coalesces updates to reduce overhead. Higher values add latency; typical range 0.005–0.030." = "合并刷新以降低开销。数值越大延迟越高；一般范围 0.005–0.030。";
 
 "Configure basic server options." = "配置基础服务器选项。";
 
@@ -60,13 +58,11 @@
 
 "Cursor & Orientation" = "光标与方向";
 
-"Defer Window (sec)" = "合并窗口（秒）";
 
 "Desktop Name" = "桌面名称";
 
 "Dirty Detection" = "脏区检测";
 
-"Dirty-detection tile size in pixels. Smaller captures finer changes but increases CPU cost." = "脏区检测的瓦片大小（像素）。越小越精细，但更耗 CPU。";
 
 "Disabled" = "关闭";
 
@@ -86,7 +82,6 @@
 
 "Full-access Password" = "完全访问密码";
 
-"Fullscreen Threshold (%)" = "全屏阈值（%）";
 
 "General" = "通用";
 
@@ -98,7 +93,6 @@
 
 "HTTP Port" = "HTTP 端口";
 
-"If changed tiles exceed this percent, send a full-screen update. 0 disables dirty detection (always fullscreen)." = "当变化瓦片比例超过该百分比时，发送全屏更新。设为 0 关闭脏区检测（总是全屏）。";
 
 "Ignore all input from clients. Overrides per-client view-only password if set." = "忽略来自客户端的所有输入。如设置了仅查看密码，则此开关全局覆盖它。";
 
@@ -116,11 +110,8 @@
 
 "Match iOS natural scroll direction for mouse wheel/trackpad; disable for traditional desktop direction." = "使鼠标滚轮/触控板滚动方向与 iOS 的 “自然滚动” 保持一致；关闭则使用传统桌面方向。";
 
-"Max concurrent client encodes before dropping new frames. 0 = never drop (may increase latency under load)." = "丢弃新帧前允许的最大并发编码数。0 表示不丢弃（在高负载下可能增加延迟）。";
 
-"Max In-flight" = "最大并发帧";
 
-"Max Rects" = "最大矩形数";
 
 "Mode" = "模式";
 
@@ -130,7 +121,6 @@
 
 "Natural Scroll Direction" = "自然滚动方向";
 
-"Non-blocking Swap" = "非阻塞交换";
 
 "None" = "无";
 
@@ -210,7 +200,6 @@
 
 "This project is licensed under GPLv2. Author: Lessica." = "本项目使用 GPLv2 许可证发布。作者：Lessica。";
 
-"Tile Size (px)" = "瓦片大小（像素）";
 
 "To unblock previously blocked clients, restart the VNC service. The temporary block list is cleared on service restart." = "要解封之前被封禁的客户端，请重启 VNC 服务。临时封禁列表会在服务重启时清空。";
 
@@ -233,5 +222,3 @@
 "Wheel Step (px)" = "滚轮步进（像素）";
 
 "Wheel Tuning" = "滚轮调校";
-
-"When dirty rectangles exceed this count, collapse to a bounding box. Too high increases protocol overhead." = "当脏矩形数量超过此值时，合并为外接矩形。过高会增加协议开销。";
